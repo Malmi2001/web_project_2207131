@@ -1,0 +1,77 @@
+.uploadImg{
+  
+    height: 150px;
+    width: 150px;
+ position: relative;
+ margin-bottom: -40px;
+ margin-top: -10px;
+ padding: 30px;
+
+
+}
+.addUploadImgTopic, .addFoodName, .addFoodDescription, .addPrice {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px; 
+  }
+  
+
+.listForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add{
+    width: 70%;
+    margin-left:max(5vw,25px) ;
+    margin-top: 50px;
+    color: rgb(78, 73, 73);
+    font-size: 16px;
+}
+.add form{
+    gap: 20px;
+}
+
+.addFoodName, .addFoodDescription{
+width: max(50%,300px);
+
+} 
+
+.addFoodName textarea{
+padding: 10px;
+}
+.addFoodDescription textarea{
+    padding: 10px;
+    }
+    
+
+.addFoodPrice{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.addFoodPrice select {
+    max-width: 120px;
+    height: 50px;
+  
+}
+.addFoodPrice input{
+    max-width: 120px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+.addBtn{
+    align-self: flex-start;
+    max-width: 120px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(18, 10, 10);
+    border-color: aliceblue;
+    border-radius: 5px;
+   
+}

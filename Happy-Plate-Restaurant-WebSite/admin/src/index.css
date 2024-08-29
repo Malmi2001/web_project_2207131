@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body{
+  min-height:100vh ;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: rgb(120, 109, 109);
+
+}
+
+.appContent{
+  display: flex;
+}
+

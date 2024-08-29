@@ -1,0 +1,156 @@
+.foodContainer{
+    margin-left: -18px;
+    box-sizing: border-box;
+    
+
+}
+
+.foodItemImg{
+ height: 150px;
+ width: 180px;
+ border-radius:15px ;
+
+
+}
+
+.foodItemsImgContainer{
+    flex: 1;
+
+.foodItems{
+
+ width: 100%;
+ margin: auto;
+ border-radius: 15px;
+ box-shadow: 0px 0px 10px rgb(235, 240, 235);
+ transition:0.3s ;
+ animation:fadeIn ;
+
+}
+
+.foodItemName{
+    font-size: 20px;
+    font-weight: 500;
+
+    font-weight: bolder;
+}
+
+.foodDescription{
+
+    font-size: 12px;
+}
+
+.foodItemDetails {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.plusSign{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-left: -30px;
+   margin-top:120px;
+  
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: #000000;
+    border-style:ridge;
+ 
+   
+}
+
+.plusBtn{
+    height: 12px;
+    width: 12px;
+    margin-left: 12px;
+ 
+}
+
+.minusBtn{
+    height: 12px;
+    width: 12px;
+    margin-left: 12px;
+}
+
+.addFoodItem{
+
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+   background-color: white;
+}
+
+
+
+.foodItemImg {
+    height: 150px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+/* For screens up to 1050px width */
+@media (max-width: 1050px) {
+    .foodItemImg {
+        height: 120px;
+        width: 140px;
+    }
+    .foodItemName {
+        font-size: 18px;
+    }
+    .foodDescription {
+        font-size: 10px;
+    }
+    .foodPrice {
+        font-size: 20px;
+    }
+    .plusSign {
+        margin-top: 80px; /* Adjust the margin-top value for the plus button */
+    }
+}
+
+/* For screens up to 900px width */
+@media (max-width: 900px) {
+    .foodItemImg {
+        height: 100px;
+        width: 120px;
+    }
+    .foodItemName {
+        font-size: 16px;
+    }
+    .foodDescription {
+        font-size: 9px;
+    }
+    .foodPrice {
+        font-size: 18px;
+    }
+    .plusSign {
+        margin-top: 60px; /* Adjust the margin-top value for the plus button */
+    }
+}
+
+/* For screens up to 750px width */
+@media (max-width: 750px) {
+    .foodItemImg {
+        height: 80px;
+        width: 100px;
+    }
+    .foodItemName {
+        font-size: 14px;
+    }
+    .foodDescription {
+        font-size: 8px;
+    }
+    .foodPrice {
+        font-size: 16px;
+    }
+    .plusSign {
+        margin-top: 40px; /* Adjust the margin-top value for the plus button */
+    }
+}
+}

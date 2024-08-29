@@ -1,0 +1,51 @@
+.paymentBtn{
+    border: none;
+    color: white;
+    background-color:  rgb(225, 60, 23);
+    width: max(15vw,200px);
+    padding: 12px 0px;
+    border-radius:4px ;
+cursor: pointer;
+}
+.order{
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+    gap:50px ;
+    margin-top: 100px;
+
+}
+
+.orderLeft{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.detailsFields input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(140, 135, 135);
+    border-radius: 4px;
+outline-color: rgb(226, 118, 118);
+}
+
+.fields{
+    display: flex;
+    gap: 10px;
+}
+
+.orderRight{
+    width: 100%;
+    max-width:max(40%,500px) ;
+}
+
+.paymentBtn{
+    margin-top: 30px;
+}
